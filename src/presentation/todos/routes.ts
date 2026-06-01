@@ -13,7 +13,7 @@ export class TodosRoutes {
     router.get("/:id", todoController.getTodoById);
     router.post("/", todoController.createTodo);
     router.put("/:id", todoController.updateTodo);
-    router.delete("/:id", todoController.deteleTodo);
+    router.delete("/:id", todoController.deleteTodo);
 
     return router;
   }
