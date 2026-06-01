@@ -4,3 +4,9 @@
 node_modules/
 keys/
 .env
+
+postgres/
+/generated/prisma
+
+dist/
+prisma/migrations/
